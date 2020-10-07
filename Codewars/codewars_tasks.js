@@ -17,3 +17,17 @@ function positiveSum(arr) {
     }
     return sum
 }
+
+function removeChar(str){
+    // It's pretty straightforward. Your goal is to create a function that
+    // removes the first and last characters of a string. You're given one parameter,
+    // the original string. You don't have to worry with strings with less than two characters.
+
+    return str.slice(1, -1)
+}
+
+function repeatStr (n, s) {
+    return s.repeat(n);
+}
+
+console.log(repeatStr(5, 'li'))
