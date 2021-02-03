@@ -43,3 +43,14 @@ function multiTable(number) {
 }
 
 console.log(multiTable(5))
+
+
+//
+function cockroachSpeed(s) {
+    return Math.floor(s * 27.777778)
+}
+
+console.log(cockroachSpeed(25))
+
+
+//////
